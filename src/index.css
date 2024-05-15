@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{ 
+    *{
+    font-family: 'Crimson Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+  }
+  body{
+    background:#FFFBF8;
+    color: #1d1a17;
+  }
+  p, a, li, Link, button {
+    font-family: 'Almarai', sans-serif;
+  }
+  .background{
+   background-image: url("./img/hero.webp");
+   background-position: center;
+   background-size: cover;
+   background-position-y: center;
+   background-repeat: no-repeat;
+  }
+  .heroVector{
+    background-image: url("./img/vector.png");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+  }
+  input::placeholder{
+    font-family: 'Almarai', sans-serif ;
+  }
+ .textarea{
+  resize: none;
+ }
+
+  .icon{
+    width: 30px;
+    height: 30px;
+  }
+  /* .icon:hover{
+    color: white;
+  } */
+  .close-icon{
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+  
+  }
+  .close-icon:hover{
+    background:white;
+    
+  }
+  .small-nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+   
+   
+  }
+  .hide-nav{
+    display: none;
+  }
+  .icon-style{
+    color:white;
+  
+  }
+  .icon-style:hover{
+    color: #000;
+  }
+  .nav-list{
+    font-size: 40px;
+    line-height: normal;
+    margin-left: 15px;
+  }
+  .nav-list:hover{
+    text-decoration: underline;
+
+  }
+  
+ @media (min-width: 991px) {
+  .icon{
+    display: none;
+  }
+  .close-icon{
+    display: none;
+  }
+  .small-nav{
+    display: none;
+  }
+ }
+ .pic-1{
+  background-image: url("./img/pic-3edit.jpg");
+  background-position: center;
+  background-size: cover;  
+ }
+ .pic-2{
+  background-image: url("./img/pic-1edit.jpg");
+  background-position: center;
+  background-size: cover;  
+ }
+ .pic-3{
+  background-image: url("./img/pic-2edit.jpg");
+  background-position: center;
+  background-size: cover;  
+ }
+ .principal{
+  background-image: url("./img/principal.webp");
+  background-position: center;
+  background-size: cover;  
+ }
+ .trustee{
+  background-image: url("./img/trustee.webp");
+  background-position: center;
+  background-size: cover;  
+ }
+ .intendent{
+  background-image: url("./img/superintendent.webp");
+  background-position: center;
+  background-size: cover;  
+ }  
+ .library{
+  background-image: url("./img/library.webp");
+  background-position: center;
+  background-size: cover;  
+ }  
+ .building{
+  background-image: url("./img/building\ img.webp");
+  background-position: center;
+  background-size: cover;  
+ }  
+ .classroom{
+  background-image: url("./img/class\ roomimg.webp");
+  background-position: center;
+  background-size: cover;  
+ }  
+ .outside{
+  background-image: url("./img/outside\ img.webp");
+  background-position: center;
+  background-size: cover;  
+ }  
+ .contact{
+  background-image: url("./img/contact\ img.webp");
+  background-position: center;
+  background-size: cover;  
+ }  
+ .bb{
+  border-bottom: solid 1px grey;
+ }
+ input:hover{
+  border-bottom: solid 1px #1d1a17;
+ }
+ 
+
+ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+ }
+ .contact-form{
+  background-image: url("./img/contact-form.webp");
+  background-position: center;
+  background-size: cover;  
+ }  
+
+
+  
+  }
+
+
